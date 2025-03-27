@@ -3,7 +3,7 @@
 from flask import Blueprint, render_template
 from ..models import Question
 
-cbp = Blueprint('collection', __name__, url_prefix='/board')
+cbp = Blueprint('board', __name__, url_prefix='/board')
 
 
 # templates 디렉토리 안에 들어있는 file 경로를 읽고, view에 작성한 객체를 달아서 렌더링해서 전달
